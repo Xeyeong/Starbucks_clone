@@ -71,6 +71,117 @@ a, a:link{
 	display: block;
 }
 
+.post-it{
+	position: fixed;
+	width : 140px;
+	height: 214px;
+	top: 200px;
+	right: 5%;
+}
+.promotion{
+	position: relative;
+}
+.promo-bg{
+	display: flex;
+	height: 650px;
+	position: absolute;
+	top:0;
+	z-index: -1;
+	width: 100%;
+}
+.left-bg{
+	background: #c2d52e;
+	flex: 5.5
+}
+.right-bg{
+	background: #87c9e2;
+	flex: 4.5
+}
+.beverage{
+	height : 600px; /* 나중에 50px은 따로 사용예정*/
+	display: flex;
+	justify-content: center;
+	column-gap: 3rem;
+}
+.b1{
+	align-self: center;
+}
+.more{
+	border: 2px solid white;
+	border-radius: 3px;
+	color: white;
+	width : 43%;
+	margin: 2rem auto;
+	text-align: center;
+	padding: 0 .2rem 0 .2rem;
+	padding-top: .6rem;
+	padding-bottom : .6rem;
+	transition : all .3s ease-in-out;
+	font-size: .825rem;
+}
+.more:hover{
+	background: white;
+	color : yellowgreen;
+	text-decoration: underline;
+}
+.b2{
+	margin-top : 3rem;
+}
+.b3{
+	align-self: center;
+}
+.b4{
+	padding-top: 4rem; 
+}
+.notice{
+	display: flex;
+	height: 50px;
+	overflow: hidden;	/*나중에 다시 수정*/
+}
+.news-area{
+	flex: 5.5;
+	background: #111;
+	color : white;
+	
+}
+.area-items{
+	display: flex;
+	float : right;
+}
+.area-items h2{
+	font-size: 1.2rem;
+}
+.area-items ul{
+	overflow: hidden;
+}
+.area-items ul li{
+	margin : 30px 0;
+}
+.area-items button{
+	width: 30px;
+	height: 30px;
+	background: none;
+	border: 1px soild ccc;
+	border-radius: 50%;
+	color: #ccc;
+}
+.promo-items{
+	display: flex;
+	float: left;	
+}
+.promo-area{
+	flex: 4.5;
+	background: #f6f5ef;
+}
+
+
+
+
+
+
+
+
+
 
 
 
