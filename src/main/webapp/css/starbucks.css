@@ -4,6 +4,8 @@
 	margin: 0;
 	padding: 0;
 }
+html {font-size : 16px;} /* 생략하면 항상 16px*/
+
 body{
 	color :#333;
 }
@@ -54,9 +56,11 @@ a, a:link{
 }
 .nav-top li:nth-child(4)::after{
 	display: none;
+	/*width : 0;*/
 }
 .nav-top li:nth-child(5)::after{
 	display: none;
+	/*width : 0;*/
 }
 .nav-top li:nth-last-child(1){
 	position: relative;
@@ -64,8 +68,8 @@ a, a:link{
 /*검색창, 검색버튼 */
 [type=image]{
 	position: absolute;
-	top : 4px;
-	left : 5px;
+	top : 6px;
+	left : 6px;
 }
 [type=search]{
 	width: 33px;
@@ -163,38 +167,65 @@ a, a:link{
 }
 .area-items{
 	display: flex;
+	align-items: center;
 	float : right;
 }
 .area-items h2{
 	font-size: 1.2rem;
 }
 .area-items ul{
+	margin : 0 0 0 1rem;
 	overflow: hidden;
+	height: 50px;
 }
 .area-items ul li{
-	margin : 30px 0;
+	margin : 15px 0;
 }
 .area-items button{
-	width: 30px;
-	height: 30px;
+	margin : 0 .5rem 0 0;
+	font-size : 1.250rem;
+	width: 36px;
+	height: 36px;
 	background: none;
-	border: 1px soild ccc;
+	border: 1px soild #ffffff;
 	border-radius: 50%;
 	color: #ccc;
 }
 .promo-items{
 	display: flex;
 	float: left;	
+	align-items: center;
+	margin : 10px 0 0 10rem;
+	display: flex;
+	
 }
 .promo-area{
 	flex: 4.5;
 	background: #f6f5ef;
 }
+.promo-items h2{
+	font-size: 1rem;
+	margin : 0 4rem 0 0 ;
+}
+.promo-items button{
+	border: 0;
+	background: none;
+	width: 30px;
+	height: 30px;
+}
+.benefit{
+	background: #1e3932;
+	color : #fff;
+	height: 260px;
+}
 
-
-
-
-
+.re-logo{
+	float : left;
+}
+.btns{
+	position: absolute;
+	
+}
 
 
 
