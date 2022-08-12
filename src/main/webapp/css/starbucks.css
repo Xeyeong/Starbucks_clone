@@ -58,6 +58,23 @@ a, a:link{
 .nav-top li:nth-child(5)::after{
 	display: none;
 }
+.nav-top li:nth-last-child(1){
+	position: relative;
+}
+/*검색창, 검색버튼 */
+[type=image]{
+	position: absolute;
+	top : 4px;
+	left : 5px;
+}
+[type=search]{
+	width: 33px;
+	height: 32px;
+	background: white;
+	border-radius: 5px;
+	border : 1px solid #ccc;
+}
+
 .nav-bottom li:hover{
 	background: #333;
 	color : #408080;
