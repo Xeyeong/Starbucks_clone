@@ -351,12 +351,90 @@ a, a:link{
 	color : #085958;
 }
 
+.reserve-bg{
+	height : 400px;
+	background: url("../img/reserve_2022_indonesia_leaf1.png") no-repeat -5% bottom,
+				url("../img/reserve_2022_indonesia_leaf2.png") no-repeat right bottom,
+				url("../img/reserve_2022_indonesia_visual3.png") no-repeat 50% 50%,
+				url("../img/reserve_2022_indonesia_visual_bg.jpg") no-repeat center/cover;
+}
+
+.reserve-text{
+	margin-top: 7rem;
+}
+.reserve-text .smore{
+	border : 1px solid #b9813e;
+	color : #b9813e;
+	box-sizing: border-box;
+}
 
 
+.reserve-text .smore:hover{
+	border : 1px solid #b9813e;
+	color : white;
+	background : #b9813e;
+	
+}
 
+.fav-bg{
+	height: 800px;
+	background: url("../img/fav_prod_bg_new.jpg") no-repeat fixed center / cover;
+	background-attachment: fixed;
+}
 
+.fav .wrap{
+	height: 600px;
+	align-items: center;
+	justify-content: space-between;
+	column-gap: 2rem;
+}
+.fav-text{
+	text-align: right;
+}
 
+.fav-text .smore{
+	margin: 2rem 0 2rem 57%;
+	box-sizing: border-box;
+}
 
+.fav-img{
+	width : 70%;
+}
+.fav-img img{
+	width: 100%;
+	object-fit : cover;
+}
+.fav-text .smore:hover{
+	color : black;
+}
+.magazine-bg{
+	height : 310px;
+	background: url("../img/reserve_bg_pc.png") no-repeat  50% -50% ;
+}
+.magazine .wrap{
+	justify-content: space-between;
+}
+.magazine-text{
+	
+	margin : 8rem 0 0 0;
+}
+.magazine-text .smore{
+	border : 2px solid black;
+	width : 25%;
+	margin : 2rem 0 2rem 50%;
+	color : black;	
+}
+.magazine-text .smore:hover{
+	background: black;
+	color : white;
+}
+.magazine-img{
+	width : 35%;
+}
+.magazine-img img{
+	width: 100%;
+	object-fit : cover;
+}
 
 
 
